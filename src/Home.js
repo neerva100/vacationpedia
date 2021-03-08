@@ -52,7 +52,7 @@ class Home extends React.Component{
     return(
         <div className="container">
             <h4 className="center">Choose your Destinations</h4><br/>
-            <div className="conatiner" style={{display: 'flex', flexDirection: 'row', width:"120%"}}>
+            <div className="conatiner" style={{display: 'flex', flexDirection: 'row', width:"100%"}}>
             {itemList}
             </div>
             
